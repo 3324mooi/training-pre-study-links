@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理者トレーニング予習用リンク集</title>
+    <style>
+      /* 全体のベースデザイン */
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
+          background-color: #F5F4EA; /* 背景：目に優しいニュアンスアースカラー */
+          color: #172B4D; /* メインテキスト */
+          line-height: 1.8;
+          margin: 0;
+          padding: 60px 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+          box-sizing: border-box;
+        }
+        
+        /* リンク集を囲むボックス */
+        .container {
+          width: 100%;
+          max-width: 580px;
+          background: #ffffff;
+          padding: 45px 40px;
+          border-radius: 16px; /* 柔らかい角丸 */
+          /* 影のコントラストを極限まで落として背景に馴染ませる */
+          box-shadow: 0 10px 30px rgba(89, 87, 87, 0.03); 
+        }
+        
+        /* タイトル */
+        h1 {
+          font-size: 19px;
+          font-weight: 600;
+          letter-spacing: 0.05em;
+          text-align: left;
+          margin-bottom: 12px;
+          color: #172B4D;
+        }
+        
+        /* サブテキスト（説明文） */
+        .subtitle {
+          font-size: 13px;
+          color: #172B4D;
+          text-align: left;
+          margin-bottom: 40px;
+          letter-spacing: 0.02em;
+        }
+        
+        /* 案内文（上に適切なスペースを空ける） */
+        .subtitle .highlight-text {
+          display: block;
+          margin-top: 24px;
+          margin-bottom: 4px;
+        }
+        
+        /* 注記（リード文よりフォントサイズをやや小さく） */
+        .note {
+          font-size: 11px;
+          display: inline-block;
+        }
+        
+        /* リンクのリスト */
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+        
+        li {
+          margin-bottom: 14px;
+        }
+        
+        /* リンクボタンのスタイル */
+        .link-item {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 16px 20px;
+          background-color: #ffffff;
+          border: 1px solid #C3D600; /* 枠線 */
+          border-radius: 10px;
+          text-decoration: none;
+          color: #172B4D;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0.03em;
+          transition: all 0.25s ease;
+        }
+        
+        /* ボタン内の数字 */
+        .link-item .num {
+          font-size: 16px;
+        }
+        
+        /* マウスを乗せたときの動き */
+        .link-item:hover {
+          background-color: #f2faea;
+          border-color: #f2faea; 
+          color: #009844;
+          transform: translateY(-1px); /* ほんの少しだけ浮かせる */
+          /* box-shadow: 0 4px 12px rgba(132, 199, 198, 0.15); /* ミントブルーの淡い光彩 */
+        }
+        
+        /* 右側の矢印アイコン（＞） */
+        .link-item::after {
+          content: "→";
+          font-size: 14px;
+          color: rgba(89, 87, 87, 0.3); /* 初期状態は目立たせない */
+          transition: all 0.25s ease;
+        }
+        
+        .link-item:hover::after {
+          color: #009844; /* ホバー時にミントブルーに */
+          transform: translateX(4px);
+        }
+      </style>
+    </head>
+    <body>
+      
+      <div class="container">
+        <h1>Agatha管理者トレーニング 事前デモのご案内</h1>
+        <p class="subtitle">操作の流れをあらかじめご覧いただくことで、当日の内容をより深くご理解いただけます。
+          <br>閲覧は任意ですので、お時間の許す範囲でご活用ください。
+          <span class="highlight-text">確認したい項目をクリックすると、該当デモに遷移します。</span>
+        <span class="note">※外部サービス（plainer）を使用しています</span></p>
+        <ul>
+          <li>
+          <a href="https://product.plainer.co.jp/s/agatha/57b49485-b647-49c1-a85a-a3cd132543ab" target="_blank" class="link-item">
+            <span><span class="num">1.</span> 「文書の登録」方法</span>
+          </a>
+          </li>
+          <li>
+          <a href="https://product.plainer.co.jp/c/agatha/97e2d033-cbd7-4e6e-ac41-e58079690390/9d4b161a-2957-41b5-9ef4-999c2a7c2482" target="_blank" class="link-item">
+          <span><span class="num">2.</span> 「文書の編集」方法</span>
+          </a>
+          </li>
+          <li>
+          <a href="https://product.plainer.co.jp/s/agatha/5ef00741-e5b7-42d0-9cc9-c427073bca2f" target="_blank" class="link-item">
+            <span><span class="num">3.</span> 「レビュー依頼」の流れ</span>
+          </a>
+          </li>
+          <li>
+          <a href="https://product.plainer.co.jp/s/agatha/4c8c4a5d-04aa-4c76-9a22-a2a15bf4155b" target="_blank" class="link-item">
+            <span><span class="num">4.</span> 「承認依頼」について</span>
+          </a>
+          </li>
+          <li>
+          <a href="https://product.plainer.co.jp/c/agatha/b3ceb04e-837a-44a7-870e-1bc98bf3b8c7/8a9dd601-f76a-4d5d-8bd8-3485285ea615" target="_blank" class="link-item">
+          <span><span class="num">5.</span>&ensp;文書を【確定】にする方法</span>
+          </a>
+          </li>
+          <li>
+          <a href="https://product.plainer.co.jp/c/agatha/1b0d1f11-f750-44c4-9c08-13906cf5552f/0b04e6f5-6813-410e-af14-c976a6cc0b2f#55c679f0-f7e8-4cdd-8646-0f4046a83359" target="_blank" class="link-item">
+            <span><span class="num">6.</span> 「文書をドラフトに戻す」方法</span>
+          </a>
+          </li>
+          <li>
+          <a href="https://product.plainer.co.jp/c/agatha/7e142f60-1144-42d9-9f93-8fa3fe38d278/1df437bf-e20a-43be-aff2-8081eb7dcf7b" target="_blank" class="link-item">
+            <span><span class="num">7.</span> 「文書の削除」方法</span>
+          </a>
+          </li>
+        </ul>
+      </div>
+    </body>
+  </html>
